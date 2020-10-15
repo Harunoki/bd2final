@@ -67,8 +67,21 @@ if __name__ == '__main__':
              Auto('Kia', 'Rio', 'Hatchback', '2017', '25488.66'),
              Auto('Toyota', 'Corolla', 'Sedan', '2007', '31137.54')]
 
-    clientes = []
-    empleados = []
+    clientes = [Cliente('8-933-445', 'Hoseok', 'Jung', 'El dorado', '6744-8522'),
+                Cliente('147548699', 'Ji-hyo', 'Park', 'Linda Vista', '5789.9060'),
+                Cliente('6-714-389', 'Felix', 'Lee', 'Chitré', '6377-3230'),
+                Cliente('8-655-322', 'Minato', 'Aqua', '12 de Octubre', '6322-1132'),
+                Cliente('8-933-445', 'Rina', 'Kang', 'Bella Vista', '8080-9090'),
+                Cliente('7-176-389', 'Kizuna', 'Ai', 'Bethania', '6599-1243'),
+                Cliente('04348377', 'Lalisa', 'Manoban', 'Dos Mares', '6343-7162')
+                ]
+    empleados = [Empleado('8-344-721', 'Tom', 'Cruise','Vendedor', 'Santa María', '120'),
+                Empleado('9-771-644', 'Paco', 'Jones','Vendedor', 'Brisas del Golf', '150'),
+                Empleado('02894456', 'Susana', 'Oria','Vendedor', 'Clayton', '110'),
+                Empleado('8-322-755', 'Sylvester', 'Stallone','Vendedor', 'Santa María', '100'),
+                Empleado('8-119-875', 'Mori', 'Calliope','Vendedor', 'Bethania', '120'),
+                Empleado('5-332-143', 'Inugami', 'Korone','Vendedor', 'Colón', '120'),
+                Empleado('123445796', 'Izuku', 'Midoriya','Vendedor', 'San Francisco', '1500')]
 
     stc = 'SHOW TABLES;'
 
