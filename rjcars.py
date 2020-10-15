@@ -269,7 +269,7 @@ if __name__ == '__main__':
                 print(titulo)
                 if sel == 1:
                     print('-Agregar datos a la tabla CLIENTES-')
-                    rn = random.randint(0, 4)
+                    rn = random.randint(0, 6)
                     cedula = clientes[rn].cedula
                     nombre = clientes[rn].nombre
                     apellido = clientes[rn].apellido
@@ -317,7 +317,7 @@ if __name__ == '__main__':
                 print(titulo)
                 if sel == 1:
                     print('-Agregar datos a la tabla EMPLEADOS-')
-                    rn = random.randint(0, 4)
+                    rn = random.randint(0, 6)
                     cedula = empleados[rn].cedula
                     nombre = empleados[rn].nombre
                     apellido = empleados[rn].apellido
