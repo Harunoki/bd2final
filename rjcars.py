@@ -38,7 +38,7 @@ if __name__ == '__main__':
     run = 1
     titulo = '-Programa para administrar base de datos de RJ CARS-'
     print(titulo)
-    hst = str(input('Ingrese el host (Por defecto:localhost): ') or 'localhost')
+    hst = str(input('Ingrese el host (Por defecto:harunoki.chickenkiller.com): ') or 'harunoki.chickenkiller.com')
     usr = str(input('Ingrese el usuario (Por defecto:RJadmin): ') or 'RJadmin')
     pwd = str(getpass('Ingrese la contraseña: '))
     dbn = 'RJCARS'
