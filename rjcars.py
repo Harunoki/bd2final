@@ -159,25 +159,25 @@ if __name__ == '__main__':
                     printsql(vdtc + 'AUTOS;')
                 except NameError:
                     print('No se pudo mostrar la tabla')
-            if sel == 2:
+            elif sel == 2:
                 print('Comando: ' + vdtc + 'CLIENTES;' + '\nSalida:')
                 try:
                     printsql(vdtc + 'CLIENTES;')
                 except NameError:
                     print('No se pudo mostrar la tabla')
-            if sel == 3:
+            elif sel == 3:
                 print('Comando: ' + vdtc + 'EMPLEADOS;' + '\nSalida:')
                 try:
                     printsql(vdtc + 'EMPLEADOS;')
                 except NameError:
                     print('No se pudo mostrar la tabla')
-            if sel == 4:
+            elif sel == 4:
                 print('Comando: ' + vdtc + 'TRANSACCIONES;' + '\nSalida:')
                 try:
                     printsql(vdtc + 'TRANSACCIONES;')
                 except NameError:
                     print('No se pudo mostrar la tabla')
-            if sel == 5:
+            elif sel == 5:
                 try:
                     printsql(stc)
                 except NameError:
@@ -236,7 +236,7 @@ if __name__ == '__main__':
                         print('No se pudo agregar los datos a la tabla AUTOS')
                     else:
                         print('Se agrego los datos a la tabla AUTOS correctamente')
-                if sel == 2:
+                elif sel == 2:
                     print('-Agregar datos a la tabla AUTOS-')
                     print('A continuacion ingrese la informacion del auto:')
                     marca = input('Ingrese la marca: ')
@@ -253,7 +253,7 @@ if __name__ == '__main__':
                         print('No se pudo agregar los datos a la tabla AUTOS')
                     else:
                         print('Se agrego los datos a la tabla AUTOS correctamente')
-            if sel == 2:
+            elif sel == 2:
                 print('-Agregar datos a la tabla CLIENTES-')
                 print('''
         -MENU-
@@ -284,7 +284,7 @@ if __name__ == '__main__':
                         print('No se pudo agregar los datos a la tabla CLIENTES')
                     else:
                         print('Se agrego los datos a la tabla CLIENTES correctamente')
-                if sel == 2:
+                elif sel == 2:
                     print('-Agregar datos a la tabla CLIENTES-')
                     print('A continuacion ingrese la informacion del cliente:')
                     cedula = input('Ingrese la cedula: ')
@@ -301,7 +301,7 @@ if __name__ == '__main__':
                         print('No se pudo agregar los datos a la tabla CLIENTES')
                     else:
                         print('Se agrego los datos a la tabla CLIENTES correctamente')
-            if sel == 3:
+            elif sel == 3:
                 print('-Agregar datos a la tabla EMPLEADOS-')
                 print('''
         -MENU-
@@ -333,7 +333,7 @@ if __name__ == '__main__':
                         print('No se pudo agregar los datos a la tabla EMPLEADOS')
                     else:
                         print('Se agrego los datos a la tabla EMPLEADOS correctamente')
-                if sel == 2:
+                elif sel == 2:
                     print('-Agregar datos a la tabla EMPLEADOS-')
                     print('A continuacion ingrese la informacion del empleado:')
                     cedula = input('Ingrese la cedula: ')
@@ -351,7 +351,7 @@ if __name__ == '__main__':
                         print('No se pudo agregar los datos a la tabla EMPLEADOS')
                     else:
                         print('Se agrego los datos a la tabla EMPLEADOS correctamente')
-            if sel == 4:
+            elif sel == 4:
                 print('-Crear una transaccion-')
                 print('A continuacion ingrese la informacion de la transaccion:')
                 try:
